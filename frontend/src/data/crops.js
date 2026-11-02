@@ -1,0 +1,17 @@
+export const cropsData = [
+  { name: "Paddy", soils: ["Clay Soil", "Red Soil"], water: "High", seasons: ["June–September (Kuruvai / Kharif)", "October–January (Samba / Rabi)"] },
+  { name: "Millets", soils: ["Red Soil", "Sandy Soil"], water: "Low", seasons: ["June–September (Kuruvai / Kharif)", "February–May (Navarai / Summer)"] },
+  { name: "Groundnut", soils: ["Red Soil", "Sandy Soil"], water: "Medium", seasons: ["June–September (Kuruvai / Kharif)", "October–January (Samba / Rabi)"] },
+  { name: "Cotton", soils: ["Black Soil", "Red Soil"], water: "Medium", seasons: ["June–September (Kuruvai / Kharif)"] },
+  { name: "Sugarcane", soils: ["Clay Soil", "Black Soil"], water: "High", seasons: ["October–January (Samba / Rabi)", "February–May (Navarai / Summer)"] },
+  { name: "Maize", soils: ["Red Soil", "Black Soil", "Sandy Soil"], water: "Medium", seasons: ["June–September (Kuruvai / Kharif)", "October–January (Samba / Rabi)"] },
+  { name: "Banana", soils: ["Red Soil", "Clay Soil"], water: "High", seasons: ["June–September (Kuruvai / Kharif)", "October–January (Samba / Rabi)", "February–May (Navarai / Summer)"] },
+  { name: "Turmeric", soils: ["Red Soil", "Clay Soil"], water: "Medium", seasons: ["June–September (Kuruvai / Kharif)"] },
+  { name: "Chilli", soils: ["Red Soil", "Sandy Soil"], water: "Medium", seasons: ["October–January (Samba / Rabi)"] },
+  { name: "Tomato", soils: ["Red Soil", "Sandy Soil", "Clay Soil"], water: "Medium", seasons: ["October–January (Samba / Rabi)", "February–May (Navarai / Summer)"] },
+  { name: "Onion", soils: ["Red Soil", "Sandy Soil"], water: "Medium", seasons: ["October–January (Samba / Rabi)"] },
+  { name: "Brinjal", soils: ["Red Soil", "Clay Soil"], water: "Medium", seasons: ["June–September (Kuruvai / Kharif)", "October–January (Samba / Rabi)"] },
+  { name: "Green Gram", soils: ["Red Soil", "Sandy Soil"], water: "Low", seasons: ["February–May (Navarai / Summer)"] },
+  { name: "Black Gram", soils: ["Red Soil", "Sandy Soil"], water: "Low", seasons: ["October–January (Samba / Rabi)", "February–May (Navarai / Summer)"] },
+  { name: "Sesame", soils: ["Red Soil", "Sandy Soil"], water: "Low", seasons: ["February–May (Navarai / Summer)"] },
+]

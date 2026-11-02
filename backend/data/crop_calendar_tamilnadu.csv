@@ -1,0 +1,31 @@
+crop,stage,day_after_sowing,task,time
+Paddy,Nursery Preparation,1,Prepare nursery bed,6:00 AM
+Paddy,Germination Check,7,Check seedling growth,7:00 AM
+Paddy,Transplanting,20,Transplant seedlings,6:30 AM
+Paddy,Fertilizer Stage,30,Apply first fertilizer,8:00 AM
+Paddy,Weeding,45,Remove weeds,7:00 AM
+Paddy,Pest Monitoring,60,Inspect pest and disease symptoms,5:00 PM
+Paddy,Grain Filling,90,Check grain filling stage,6:00 AM
+Paddy,Harvest Planning,120,Prepare for harvest,7:00 AM
+
+Groundnut,Sowing,1,Sow groundnut seeds,6:00 AM
+Groundnut,Germination Check,10,Check germination rate,7:00 AM
+Groundnut,Weeding,25,Remove weeds,6:30 AM
+Groundnut,Gypsum Application,35,Apply gypsum,8:00 AM
+Groundnut,Pest Monitoring,50,Inspect pests and leaf spots,5:00 PM
+Groundnut,Pod Maturity,90,Check pod maturity,7:00 AM
+Groundnut,Harvest Planning,110,Prepare for harvest,6:00 AM
+
+Banana,Planting,1,Plant banana suckers,6:00 AM
+Banana,Irrigation,7,Check irrigation channels,7:00 AM
+Banana,Fertilizer Application,30,Apply organic manure,8:00 AM
+Banana,Disease Inspection,60,Inspect leaves for disease,5:00 PM
+Banana,Bunch Development,150,Check bunch growth,6:30 AM
+Banana,Harvest Planning,300,Prepare for harvest,7:00 AM
+
+Sugarcane,Planting,1,Plant sugarcane setts,6:00 AM
+Sugarcane,Irrigation,15,Check water flow,7:00 AM
+Sugarcane,Fertilizer Application,45,Apply fertilizer,8:00 AM
+Sugarcane,Weeding,60,Remove weeds,6:30 AM
+Sugarcane,Pest Monitoring,120,Inspect borer damage,5:00 PM
+Sugarcane,Harvest Planning,300,Prepare for harvest,7:00 AM

@@ -1,0 +1,21 @@
+crop,soil_type,water_need,season,budget_level,reason
+Paddy,Clay Soil,High,June–September (Kuruvai / Kharif),High,Requires standing water and performs well in clay soil during monsoon season
+Paddy,Clay Soil,High,October–January (Samba / Rabi),High,Suitable for samba season when irrigation support is available
+Groundnut,Red Soil,Medium,June–September (Kuruvai / Kharif),Medium,Red soil and moderate water are suitable for groundnut cultivation
+Groundnut,Sandy Soil,Medium,October–January (Samba / Rabi),Medium,Sandy well-drained soil supports groundnut pod development
+Millets,Red Soil,Low,June–September (Kuruvai / Kharif),Low,Millets need less water and tolerate dry conditions
+Millets,Sandy Soil,Low,February–May (Navarai / Summer),Low,Low-water crop suitable for dry summer farming
+Cotton,Black Soil,Medium,June–September (Kuruvai / Kharif),Medium,Black soil retains moisture and supports cotton growth
+Sugarcane,Black Soil,High,October–January (Samba / Rabi),High,Requires high water and nutrient-rich soil
+Banana,Red Soil,High,June–September (Kuruvai / Kharif),High,Needs good irrigation and performs well in fertile red soil
+Banana,Clay Soil,High,October–January (Samba / Rabi),High,Suitable when drainage and irrigation are managed
+Maize,Red Soil,Medium,June–September (Kuruvai / Kharif),Medium,Maize grows well in red soil with moderate water
+Maize,Black Soil,Medium,October–January (Samba / Rabi),Medium,Black soil moisture retention supports maize growth
+Tomato,Red Soil,Medium,October–January (Samba / Rabi),Medium,Cooler season and well-drained red soil support tomato growth
+Onion,Sandy Soil,Medium,October–January (Samba / Rabi),Medium,Loose soil helps bulb development
+Chilli,Red Soil,Medium,October–January (Samba / Rabi),Medium,Red soil and moderate irrigation support chilli cultivation
+Black Gram,Red Soil,Low,February–May (Navarai / Summer),Low,Low-water pulse suitable for dry season
+Green Gram,Sandy Soil,Low,February–May (Navarai / Summer),Low,Short-duration crop with low water requirement
+Sesame,Sandy Soil,Low,February–May (Navarai / Summer),Low,Performs well under dry conditions and low water availability
+Turmeric,Red Soil,Medium,June–September (Kuruvai / Kharif),Medium,Requires warm humid conditions and well-drained soil
+Brinjal,Red Soil,Medium,October–January (Samba / Rabi),Medium,Vegetable crop suitable for moderate water and fertile soil

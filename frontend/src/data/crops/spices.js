@@ -1,0 +1,233 @@
+const spices = {
+  turmeric: {
+    cropName: "Turmeric",
+    durationDays: 270,
+    category: "Spice",
+    suitableSoils: ["Loamy Soil", "Red Soil", "Clay Soil"],
+    waterNeed: "Medium",
+    suitableIrrigation: [
+      "Medium Water Availability",
+      "Drip Irrigation",
+      "Canal Irrigation",
+      "Rain-fed",
+    ],
+    seasons: ["April", "May", "June", "July"],
+    lifecycle: [
+      {
+        day: 1,
+        time: "6:00 AM",
+        icon: "🚜",
+        task: "Prepare raised beds for turmeric cultivation.",
+      },
+      {
+        day: 5,
+        time: "7:00 AM",
+        icon: "🌱",
+        task: "Select healthy turmeric rhizomes for planting.",
+      },
+      {
+        day: 7,
+        time: "6:00 AM",
+        icon: "🌱",
+        task: "Plant turmeric rhizomes with proper spacing.",
+      },
+      {
+        day: 20,
+        time: "6:00 AM",
+        icon: "💧",
+        task: "Maintain regular moisture during sprouting stage.",
+      },
+      {
+        day: 40,
+        time: "7:00 AM",
+        icon: "🌿",
+        task: "Apply organic manure and mulch around plants.",
+      },
+      {
+        day: 70,
+        time: "6:00 AM",
+        icon: "🌿",
+        task: "Remove weeds and loosen soil around rhizomes.",
+      },
+      {
+        day: 100,
+        time: "5:00 PM",
+        icon: "🐛",
+        task: "Inspect crop for rhizome rot and leaf spot disease.",
+      },
+      {
+        day: 140,
+        time: "6:00 AM",
+        icon: "🌿",
+        task: "Apply additional nutrients for rhizome development.",
+      },
+      {
+        day: 180,
+        time: "7:00 AM",
+        icon: "🌾",
+        task: "Monitor healthy leaf and rhizome growth.",
+      },
+      {
+        day: 220,
+        time: "5:00 PM",
+        icon: "🌾",
+        task: "Reduce excess irrigation during maturity stage.",
+      },
+      {
+        day: 250,
+        time: "6:00 AM",
+        icon: "🟡",
+        task: "Check rhizome maturity before harvest.",
+      },
+      {
+        day: 270,
+        time: "6:00 AM",
+        icon: "🚜",
+        task: "Harvest mature turmeric rhizomes carefully.",
+      },
+    ],
+  },
+
+  coriander: {
+    cropName: "Coriander",
+    durationDays: 90,
+    category: "Spice",
+    suitableSoils: ["Loamy Soil", "Sandy Soil", "Red Soil"],
+    waterNeed: "Low",
+    suitableIrrigation: [
+      "Low Water Availability",
+      "Rain-fed",
+      "Drip Irrigation",
+      "Medium Water Availability",
+    ],
+    seasons: ["October", "November", "December", "January"],
+    lifecycle: [
+      {
+        day: 1,
+        time: "6:00 AM",
+        icon: "🚜",
+        task: "Prepare fine seed bed for coriander cultivation.",
+      },
+      {
+        day: 3,
+        time: "7:00 AM",
+        icon: "🌱",
+        task: "Select quality coriander seeds.",
+      },
+      {
+        day: 5,
+        time: "6:00 AM",
+        icon: "🌱",
+        task: "Sow coriander seeds evenly in rows.",
+      },
+      {
+        day: 12,
+        time: "6:00 AM",
+        icon: "💧",
+        task: "Maintain light irrigation during germination.",
+      },
+      {
+        day: 20,
+        time: "7:00 AM",
+        icon: "🌿",
+        task: "Remove weeds around young plants.",
+      },
+      {
+        day: 35,
+        time: "5:00 PM",
+        icon: "🐛",
+        task: "Inspect crop for aphids and powdery mildew.",
+      },
+      {
+        day: 50,
+        time: "6:00 AM",
+        icon: "🌿",
+        task: "Apply light organic fertilizer if needed.",
+      },
+      {
+        day: 70,
+        time: "7:00 AM",
+        icon: "🌾",
+        task: "Monitor flowering and seed formation.",
+      },
+      {
+        day: 90,
+        time: "6:00 AM",
+        icon: "🚜",
+        task: "Harvest mature coriander plants and dry seeds properly.",
+      },
+    ],
+  },
+
+  cardamom: {
+    cropName: "Cardamom",
+    durationDays: 365,
+    category: "Spice",
+    suitableSoils: ["Loamy Soil", "Forest Soil"],
+    waterNeed: "High",
+    suitableIrrigation: [
+      "High Water Availability",
+      "Rain-fed",
+      "Drip Irrigation",
+    ],
+    seasons: ["June", "July", "August"],
+    lifecycle: [
+      {
+        day: 1,
+        time: "6:00 AM",
+        icon: "🚜",
+        task: "Prepare shaded fertile land for cardamom plantation.",
+      },
+      {
+        day: 10,
+        time: "7:00 AM",
+        icon: "🌱",
+        task: "Plant healthy cardamom suckers.",
+      },
+      {
+        day: 30,
+        time: "6:00 AM",
+        icon: "💧",
+        task: "Maintain continuous soil moisture.",
+      },
+      {
+        day: 60,
+        time: "7:00 AM",
+        icon: "🌿",
+        task: "Apply organic manure and mulch around plants.",
+      },
+      {
+        day: 100,
+        time: "5:00 PM",
+        icon: "🐛",
+        task: "Inspect crop for capsule rot and thrips.",
+      },
+      {
+        day: 160,
+        time: "6:00 AM",
+        icon: "🌿",
+        task: "Remove weeds and dry shoots.",
+      },
+      {
+        day: 220,
+        time: "7:00 AM",
+        icon: "🌸",
+        task: "Monitor flowering and capsule development.",
+      },
+      {
+        day: 300,
+        time: "5:00 PM",
+        icon: "🟢",
+        task: "Check capsule maturity and plant health.",
+      },
+      {
+        day: 365,
+        time: "6:00 AM",
+        icon: "🚜",
+        task: "Harvest mature cardamom capsules carefully.",
+      },
+    ],
+  },
+}
+
+export default spices
